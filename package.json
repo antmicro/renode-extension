@@ -1,5 +1,6 @@
 {
   "name": "renode-extension",
+  "packageManager": "pnpm@11.3.0",
   "displayName": "Renode",
   "description": "",
   "version": "0.0.1-alpha.1",
@@ -239,15 +240,5 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "avoid"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@playwright/browser-chromium"
-    ],
-    "ignoredBuiltDependencies": [
-      "@vscode/vsce-sign",
-      "esbuild",
-      "keytar"
-    ]
   }
 }
