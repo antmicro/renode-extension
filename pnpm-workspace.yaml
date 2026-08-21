@@ -1,0 +1,6 @@
+minimumReleaseAge: 0
+allowBuilds:
+  '@playwright/browser-chromium': true
+  esbuild: true
+  '@vscode/vsce-sign': false
+  keytar: false

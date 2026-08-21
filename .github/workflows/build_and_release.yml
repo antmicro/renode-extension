@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         shell: bash
         run: |
-          pnpm env use --global iron
+          pnpm env use --global jod
           pnpm install --frozen-lockfile
 
       - name: Build extension

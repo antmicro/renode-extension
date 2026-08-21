@@ -1,5 +1,6 @@
 {
   "name": "renode-extension",
+  "packageManager": "pnpm@11.3.0",
   "displayName": "Renode",
   "description": "",
   "version": "0.0.1-alpha.1",
@@ -230,7 +231,6 @@
     "@vscode/debugadapter": "^1.68.0",
     "@vscode/debugprotocol": "^1.68.0",
     "isomorphic-ws": "^5.0.0",
-    "pnpm": "^10.8.0",
     "renode-ws-api": "https://builds.renode.io/api/typescript+20260323git72927373f.tgz"
   },
   "prettier": {
@@ -239,15 +239,5 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "avoid"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@playwright/browser-chromium"
-    ],
-    "ignoredBuiltDependencies": [
-      "@vscode/vsce-sign",
-      "esbuild",
-      "keytar"
-    ]
   }
 }
