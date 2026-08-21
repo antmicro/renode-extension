@@ -17,9 +17,6 @@ importers:
       isomorphic-ws:
         specifier: ^5.0.0
         version: 5.0.0(ws@8.18.1)
-      pnpm:
-        specifier: ^10.8.0
-        version: 10.8.0
       renode-ws-api:
         specifier: https://builds.renode.io/api/typescript+20260323git72927373f.tgz
         version: https://builds.renode.io/api/typescript+20260323git72927373f.tgz(ws@8.18.1)
@@ -1963,11 +1960,6 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  pnpm@10.8.0:
-    resolution: {integrity: sha512-DoJxTRtbQ8dGEBk8sgc0iXwdAN6J0OGEIK68WXf6E9eAqcsFc0Yk6B69gcyHbNRkeUhQZBxIuVRDJrViLKKZcQ==}
-    engines: {node: '>=18.12'}
-    hasBin: true
-
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
     engines: {node: '>= 0.4'}
@@ -2044,7 +2036,7 @@ packages:
     engines: {node: '>= 0.4'}
 
   renode-ws-api@https://builds.renode.io/api/typescript+20260323git72927373f.tgz:
-    resolution: {tarball: https://builds.renode.io/api/typescript+20260323git72927373f.tgz}
+    resolution: {integrity: sha512-aoJMQLpIadqyRMQ8b6YGESb+oTjqFJoVj0AaDlNBJ1AGW3uXT21CaMM3cdb+bap/mDf6IjGDb6yMq0H4KR34TA==, tarball: https://builds.renode.io/api/typescript+20260323git72927373f.tgz}
     version: 0.0.1
 
   require-directory@2.1.1:
@@ -4686,8 +4678,6 @@ snapshots:
       playwright-core: 1.51.1
     optionalDependencies:
       fsevents: 2.3.2
-
-  pnpm@10.8.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
